@@ -2,6 +2,9 @@
   "permissions": {
     "additionalDirectories": [
       "d:\\DaaS\\aks-tf-infra-setup\\aks-tf-infra-setup\\terraform\\modules\\network"
+    ],
+    "allow": [
+      "Bash(xargs grep -l \"redis\\\\|cart\")"
     ]
   }
 }
