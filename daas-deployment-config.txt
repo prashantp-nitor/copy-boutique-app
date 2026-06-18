@@ -25,7 +25,7 @@ SERVICE ENVIRONMENT VARIABLES
 --------------------------------------------------------------------------------
 Service: cartservice
 --------------------------------------------------------------------------------
-REDIS_ADDR=<your-managed-redis-endpoint>:6379
+REDIS_ADDR=daas-redis-test.eastus.redis.azure.net:10000,password=<access-key>,ssl=True,abortConnect=False
 
 --------------------------------------------------------------------------------
 Service: frontend
